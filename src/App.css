@@ -1,5 +1,5 @@
 #root {
-  font-family: "Great Vibes";
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 
 /* body {
@@ -57,7 +57,7 @@ body {
 }
 
 #button2 {
-  background-color: #008CBA;
+  background-color: black;
   color: white;
   border-radius: 4em;
 }
