@@ -87,7 +87,7 @@ const App = () => {
       {!isYesClicked && (
         <>
           {trails.map(props => (
-            <animated.h1 className="title" style={props}>Will you be my Valentine ?</animated.h1>
+            <animated.h1 className="title" style={props}>Will you be my Valentine babay ?</animated.h1>
           ))}
         </>
       )}
