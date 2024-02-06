@@ -49,7 +49,7 @@ const App = () => {
     if (!isYesClicked) {
       return;
     };
-    fetch("../public/assets/thankyou.pdf").then((response) => {
+    fetch("assets/thankyou.pdf").then((response) => {
       response.blob().then((blob) => {
 
         // Creating new object of PDF file
@@ -87,7 +87,7 @@ const App = () => {
       {!isYesClicked && (
         <>
           {trails.map(props => (
-            <animated.h1 className="title" style={props}>Will you be my Valentine babay ?</animated.h1>
+            <animated.h1 className="title" style={props}>Will you be my Valentine ?</animated.h1>
           ))}
         </>
       )}
