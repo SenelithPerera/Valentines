@@ -49,7 +49,7 @@ const App = () => {
     if (!isYesClicked) {
       return;
     };
-    fetch("assets/thankyou.pdf").then((response) => {
+    fetch("assets/mylove.pdf").then((response) => {
       response.blob().then((blob) => {
 
         // Creating new object of PDF file
@@ -59,7 +59,7 @@ const App = () => {
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Thanks.pdf";
+        alink.download = "mylove.pdf";
         alink.click();
       });
     });
